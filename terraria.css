@@ -1,0 +1,65 @@
+body {
+    background-image: radial-gradient(#7ed348, #26b170);
+    background-size: cover;
+}
+
+body, p {
+    color: #34344a;
+}
+
+.nav-theme {
+    background-image: url(./assets/blue-archive-theme/shiroko2.png);
+    background-size: initial;
+    background-position: 41% 24%;
+    border-bottom: solid 1px #34344a;
+    color: #34344a;
+    text-shadow: .5px .5px #edf2fb;
+}
+
+.nav-theme a {
+    color: #edf2fb;
+    text-shadow: .5px .5px #34344a;
+}
+
+#desktop-nav a:hover, #hamburger-nav a:hover {
+    color:black;
+    text-shadow: 1px 1px #edf2fb;
+}
+
+.hamburger-icon span {
+    background-color:  #edf2fb;
+}
+
+footer.footer-theme {
+    background-image: url(./assets/blue-archive-theme/trademark-bg.png);
+    background-size: cover;
+    background-position: 50% 80%;
+    border-top: solid 1px #34344a;
+}
+
+footer, footer p {
+    color: #edf2fb;
+}
+
+footer a:hover {
+    text-shadow: 1px 1px #bae0f3;
+}
+
+@media screen and (max-width: 600px) {
+    .nav-theme {
+        background-size: 878px 408px;
+        background-position: 12% 8%;
+    }
+
+    .menu-links a {
+        color: #34344a;
+        background-color: #bae0f3;
+        &:hover {
+          background-color: #50abe7;
+        }
+      }
+
+    footer p {
+        margin: auto 5rem;
+    }
+}
