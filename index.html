@@ -15,18 +15,16 @@
     <div id="nav">
     </div>
     <nav id="desktop-nav" class="nav-theme flex justify-around items-center">
-        <div class="logo text-[2rem]">Faiz Daffa Makarim</div>
         <div>
-            <ul class="nav-links flex gap-2 text-[1.5rem] items-center">
+            <ul class="nav-links flex gap-10 text-[1.5rem] items-center">
                 <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
+                <li><a href="#experience">Services</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
     </nav>
-    <nav id="hamburger-nav" class="nav-theme flex justify-around items-center hidden">
-        <div class="logo">Faiz Daffa Makarim</div>
+    <nav id="hamburger-nav" class="nav-theme flex justify-end items-center mr-[6vw] hidden">
         <div class="hamburger-menu relative inline-block">
             <div class="hamburger-icon flex flex-col justify-between w-[30px] cursor-pointer" onclick="toggleMenu()">
                 <span class="w-[100%] bg-white transition-all duration-[.3s] ease-in-out"></span>
@@ -39,7 +37,7 @@
                         class="block p-[10px] align-center text-[1.5rem] text-white">About</a>
                 </li>
                 <li><a href="#experience" onclick="toggleMenu()"
-                        class="block p-[10px] align-center text-[1.5rem] text-white">Experience</a>
+                        class="block p-[10px] align-center text-[1.5rem] text-white">Services</a>
                 </li>
                 <li><a href="#projects" onclick="toggleMenu()"
                         class="block p-[10px] align-center text-[1.5rem] text-white">Projects</a>
@@ -50,55 +48,42 @@
             </div>
         </div>
     </nav>
-    <section id="profile" class="profile-theme flex justify-center gap-[5rem]">
+    <section id="profile" class="profile-theme flex flex-row justify-center gap-[5rem]">
         <div class="section__pic-container flex h-[400px] w-[400px] mx-0 my-auto overflow-hidden">
             <img src="./assets/profile-faiz.jpg" alt="Faiz Daffa Profile Picture" class="profile__img">
         </div>
         <div class="section__text self-center text-center">
-            <p class="section__text__p1 text-center">Hello, I'm</p>
-            <h1 class="title text-[3rem] text-center">Faiz Daffa Makarim</h1>
-            <p class="section__text__p2 text-[1.75rem] mb-[1rem]">Frontend Developer</p>
+            <h1 class="title text-[3rem] text-center">Hi! I'm Faiz Daffa Makarim</h1>
+            <p class="section__text__p1  text-center">Frontend Web Developer Based in Jakarta.</p>
+            <p class="section__text__p2 text-[.75rem] mb-[1rem]">I am a frontend developer from Indonesia with 10
+                years of experience in multiple companies like Microsoft, Tesla and Apple.</p>
             <div class="btn-container flex justify-center gap-[1rem]">
-                <button class="btn btn-color-1" onclick="window.open('./assets/resume-example.pdf')">Download
-                    My CV</button>
+                <button class="btn btn-color-1" onclick="window.open('./assets/CV-IoT.pdf')">My CV</button>
                 <button class="btn btn-color-2" onclick="location.href='./#contact'">Contact Me</button>
-            </div>
-            <div id="socials-container" class="flex justify-center mt-[1rem] gap-[1rem]">
-                <img src="./assets/linkedin.png" alt="My LinkedIn" class="icon icon-click"
-                    onclick="location.href=`https://www.linkedin.com/in/faizdm/`">
-                <img src="./assets/github.png" alt="My Github" class="icon icon-click"
-                    onclick="location.href=`https://github.com/Faiz679`">
             </div>
         </div>
     </section>
     <section id="about" class="about-theme relative">
-        <p class="section__text__p1 text-center">Get To Know More</p>
         <h1 class="title text-[3rem] text-center">About Me</h1>
-        <div class="section-container flex gap-[4rem]">
+        <div class="section-container flex flex-row-reverse gap-[4rem]">
             <div class="section__pic-container flex h-[400px] w-[400px] mx-0 my-auto">
                 <img src="./assets/profile-faiz-2.jpg" alt="Profile Picture" class="about__img rounded-[2rem]">
             </div>
             <div class="about-details-container justify-center flex flex-col">
                 <div class="about-container gap-[2rem] flex rounded-[2rem] text-center my-[2rem]">
                     <div class="details-container">
-                        <img src="./assets/experience.png" alt="Experience Icon" class="icon">
-                        <h3>Experience</h3>
+                        <h3 class="mb-6 font-bold text-[1.5rem]">Experience</h3>
                         <p>2+ years <br />Frontend Development</p>
                     </div>
                     <div class="details-container">
-                        <img src="./assets/education.png" alt="Education Icon" class="icon">
-                        <h3>Education</h3>
-                        <p>B. Sc. Bachelors Degree <br />M. Sc. Masters Degree</p>
+                        <h3 class="mb-6 font-bold text-[1.5rem]">Education</h3>
+                        <p>B. Eng. Bachelors Degree <br />M. Eng. Masters Degree</p>
                     </div>
                 </div>
                 <div class="text-container">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem cumque voluptas aliquam
-                        repudiandae est omnis nisi accusantium, temporibus ex fugiat molestiae! Quo minus natus expedita
-                        obcaecati, eius qui quidem magnam, quisquam inventore modi voluptatum sit tempora commodi totam
-                        accusamus dolores ducimus necessitatibus? Officiis ipsa aspernatur dolorum minus tenetur.
-                        Mollitia quod vero consequatur nisi nobis optio architecto minus, quam voluptatem! Eaque placeat
-                        quibusdam veritatis architecto et aspernatur soluta asperiores fugiat laboriosam, non rerum aut
-                        molestias voluptatibus?.</p>
+                    <p>I am an experienced Frontend Developer with over a decade of professional expertise in the field.
+                        Throughout my career, I have had the privilege of collaborating with prestigious organizations,
+                        contributing to their success and growth.</p>
                 </div>
             </div>
         </div>
@@ -107,86 +92,53 @@
             onclick="location.href='./#experience'">
     </section>
     <section id="experience" class="experience-theme relative">
-        <p class="section__text__p1 text-center">Explore My</p>
-        <h1 class="title text-[3rem] text-center">Experience</h1>
+        <h1 class="title text-[3rem] text-center">My Services</h1>
         <div class="experience-detail-container flex justify-center flex-col">
-            <div class="about-container gap-[2rem] flex rounded-[2rem] text-center my-[2rem]">
+            <div class="about-container scroll-container gap-[2rem] flex rounded-[2rem] text-center my-[2rem]">
                 <div class="details-container">
-                    <h2 class="experience-sub-title">Frontend Development</h2>
                     <div class="article-container">
                         <article>
-                            <img src="./assets/checkmark.png" alt="Checkmark Icon" class="icon">
                             <div>
-                                <h3>HTML</h3>
-                                <p>Experienced</p>
+                                <h3 class="mb-6 font-bold text-[1.2rem]">Web design</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi nisi provident
+                                    earum odit saepe tempora laboriosam deserunt recusandae, vel molestias adipisci
+                                    veniam possimus at aperiam iste, cupiditate perspiciatis nulla. Alias?</p>
                             </div>
                         </article>
+                    </div>
+                </div>
+                <div class=" details-container">
+                    <div class="article-container">
                         <article>
-                            <img src="./assets/checkmark.png" alt="Checkmark Icon" class="icon">
                             <div>
-                                <h3>CSS</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Checkmark Icon" class="icon">
-                            <div>
-                                <h3>JavaScript</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Checkmark Icon" class="icon">
-                            <div>
-                                <h3>SASS</h3>
-                                <p>Basic</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Checkmark Icon" class="icon">
-                            <div>
-                                <h3>TypeScript</h3>
-                                <p>Basic</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Checkmark Icon" class="icon">
-                            <div>
-                                <h3>Material UI</h3>
-                                <p>Intermediate</p>
+                                <h3 class="mb-6 font-bold text-[1.2rem]">Mobile app</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi nisi provident
+                                    earum odit saepe tempora laboriosam deserunt recusandae, vel molestias adipisci
+                                    veniam possimus at aperiam iste, cupiditate perspiciatis nulla. Alias?</p>
                             </div>
                         </article>
                     </div>
                 </div>
                 <div class="details-container">
-                    <h2 class="experience-sub-title">Backend Development</h2>
                     <div class="article-container">
                         <article>
-                            <img src="./assets/checkmark.png" alt="Checkmark Icon" class="icon">
                             <div>
-                                <h3>PostgreSQL</h3>
-                                <p>Basic</p>
+                                <h3 class="mb-6 font-bold text-[1.2rem]">UI/ UX design</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi nisi provident
+                                    earum odit saepe tempora laboriosam deserunt recusandae, vel molestias adipisci
+                                    veniam possimus at aperiam iste, cupiditate perspiciatis nulla. Alias?</p>
                             </div>
                         </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <div class="article-container">
                         <article>
-                            <img src="./assets/checkmark.png" alt="Checkmark Icon" class="icon">
                             <div>
-                                <h3>Node JS</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Checkmark Icon" class="icon">
-                            <div>
-                                <h3>Express JS</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Checkmark Icon" class="icon">
-                            <div>
-                                <h3>Git</h3>
-                                <p>Intermediate</p>
+                                <h3 class="mb-6 font-bold text-[1.2rem]">Graphics design</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi nisi provident
+                                    earum odit saepe tempora laboriosam deserunt recusandae, vel molestias adipisci
+                                    veniam possimus at aperiam iste, cupiditate perspiciatis nulla. Alias?</p>
                             </div>
                         </article>
                     </div>
@@ -197,43 +149,58 @@
             class="icon icon-click arrow absolute right-[-5rem] bottom-[2.5rem]" onclick="location.href='./#projects'">
     </section>
     <section id="projects" class="projects-theme relative">
-        <p class="section__text__p1 text-center">Browse My Recent</p>
-        <h1 class="title text-[3rem] text-center">Projects</h1>
+        <h1 class="title text-[3rem] text-center">My Latest Works</h1>
         <div class="experience-details-container flex justify-center flex-col">
-            <div class="about-container gap-[2rem] flex rounded-[2rem] text-center my-[2rem]">
-                <div class="details-container color-container">
+            <div class="about-container scroll-container gap-[2rem] flex rounded-[2rem] text-center my-[2rem]">
+                <div class="details-container color-container inline-block">
                     <div class="article-container">
                         <img src="./assets/project-1.png" alt="Project 1" class="project-img">
                     </div>
                     <h2 class="experience-sub-title project-title text-center">Project One</h2>
                     <div class="btn-container flex justify-center gap-[1rem]">
                         <button class="btn btn-color-2 project-btn"
-                            onclick="location.href='https://github.com'">Github</button>
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">Live
+                            onclick="location.href=`https://github.com/Faiz679/projek-join-iot-snake`">Github</button>
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://faizdevproject1.netlify.app/'">Live
                             Demo</button>
                     </div>
                 </div>
-                <div class="details-container color-container">
+                <div class="details-container color-container inline-block">
                     <div class="article-container">
-                        <img src="./assets/project-2.png" alt="Project 1" class="project-img">
+                        <img src="./assets/project-2.png" alt="Project 2" class="project-img">
                     </div>
                     <h2 class="experience-sub-title project-title text-center">Project Two</h2>
                     <div class="btn-container flex justify-center gap-[1rem]">
                         <button class="btn btn-color-2 project-btn"
-                            onclick="location.href='https://github.com'">Github</button>
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">Live
+                            onclick="location.href='https://github.com/Faiz679/simple-calculator'">Github</button>
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://faizdevproject2.netlify.app/'">Live
                             Demo</button>
                     </div>
                 </div>
-                <div class="details-container color-container">
+                <div class="details-container color-container inline-block">
                     <div class="article-container">
-                        <img src="./assets/project-3.png" alt="Project 1" class="project-img">
+                        <img src="./assets/project-3.png" alt="Project 3" class="project-img">
                     </div>
                     <h2 class="experience-sub-title project-title text-center">Project Three</h2>
                     <div class="btn-container flex justify-center gap-[1rem]">
                         <button class="btn btn-color-2 project-btn"
-                            onclick="location.href='https://github.com'">Github</button>
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">Live
+                            onclick="location.href='https://github.com/Faiz679/random-quote-gen'">Github</button>
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://faizdevproject3.netlify.app/'">Live
+                            Demo</button>
+                    </div>
+                </div>
+                <div class="details-container color-container inline-block">
+                    <div class="article-container">
+                        <img src="./assets/project-4.png" alt="Project 4" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title text-center">Project Four</h2>
+                    <div class="btn-container flex justify-center gap-[1rem]">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/Faiz679/to-do-list'">Github</button>
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://faizdevproject4.netlify.app/'">Live
                             Demo</button>
                     </div>
                 </div>
@@ -243,7 +210,6 @@
             class="icon icon-click arrow absolute right-[-5rem] bottom-[2.5rem]" onclick="location.href='./#contact'">
     </section>
     <section id="contact" class="contact-theme flex justify-center flex-col">
-        <p class="section__text__p text-center">Get In Touch With Me</p>
         <h1 class="title text-[3rem] text-center">Contact</h1>
         <div class="contact-info-upper-container flex justify-center rounded-[2rem] mx-auto my-[2rem] p-[.5rem]">
             <div class="contact-info-container">
@@ -255,6 +221,10 @@
             <div class="contact-info-container">
                 <img src="./assets/linkedin.png" alt="LinkedIn Icon" class="icon contact-icon">
                 <p><a href="https://www.linkedin.com/in/faizdm/">Faiz Daffa Makarim</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/github.png" alt="My Github" class="icon contact-icon">
+                <p><a href="https://github.com/Faiz679">Faiz Daffa Makarim</a></p>
             </div>
         </div>
     </section>
@@ -272,13 +242,11 @@
         <p>Copyright &#169; 2025 Faiz Daffa Makarim. All Rights Reserved.</p>
     </footer>
     <div id="theme-container" class="theme-container">
-        <p>Theme</p>
+        <p class=" theme-text" onclick="toggleTheme()">Theme</p>
         <img src="./assets/checkmark.png" alt="blue archive chibi" class="theme-icon theme-default"
             onclick="themeDefault()">
         <img src="./assets/blue-archive-theme/18.png" alt="blue archive chibi" class="theme-icon theme-blue-archive"
             onclick="themeBlueArchive()">
-        <img src="./assets/blue-archive-theme/terraria.png" alt="terraria icon" class="theme-icon theme-terraria"
-            onclick="themeTerraria()">
     </div>
     <script src="script.js"></script>
 </body>
